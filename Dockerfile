@@ -10,3 +10,6 @@ RUN apt-get update && apt-get install -y \
         libusb-1.0
 
 RUN pip3 install pyftdi
+
+COPY bootloader_start.py /
+COPY bootloader_stop.py /
