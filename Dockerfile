@@ -13,3 +13,4 @@ RUN pip3 install pyftdi
 
 COPY bootloader_start.py /
 COPY bootloader_stop.py /
+COPY ftdi-eeprom-config.py /
